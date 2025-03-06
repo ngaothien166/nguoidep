@@ -12,55 +12,8 @@ a {color:#000;font-size:14px;}
 #error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
 .hand{cursor:pointer;}
 .say {
-    font-size: 15px; /* Tăng kích thước chữ */
+    font-size: 16px; /* Tăng kích thước chữ */
     font-weight: bold; /* Làm đậm chữ */
-}
-.space{margin-right:150px;}
-/* Container cho trái tim */
-.heart-container {
-    margin-top: 20px; /* Khoảng cách phía trên */
-    text-align: center; /* Căn giữa trái tim */
-}
-
-/* Trái tim siêu đáng yêu */
-.heart {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background: #ff6b8a; /* Màu hồng pastel */
-    transform: rotate(-45deg);
-    animation: heartbeat 1.5s infinite;
-    display: inline-block; /* Đảm bảo trái tim nằm trong container */
-}
-
-.heart:before,
-.heart:after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background: #ff6b8a;
-    border-radius: 50%;
-}
-
-.heart:before {
-    top: -25px;
-    left: 0;
-}
-
-.heart:after {
-    left: 25px;
-    top: 0;
-}
-
-/* Hiệu ứng nhịp tim */
-@keyframes heartbeat {
-    0% { transform: rotate(-45deg) scale(1); }
-    20% { transform: rotate(-45deg) scale(1.2); }
-    40% { transform: rotate(-45deg) scale(1); }
-    60% { transform: rotate(-45deg) scale(1.1); }
-    80% { transform: rotate(-45deg) scale(1); }
-    100% { transform: rotate(-45deg) scale(1); }
 }
 @media (max-width: 768px) {
     #main {
