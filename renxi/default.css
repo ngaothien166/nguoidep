@@ -12,7 +12,7 @@ a {color:#000;font-size:14px;}
 #error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
 .hand{cursor:pointer;}
 .say {
-    font-size: 14px; /* Tăng kích thước chữ */
+    font-size: 15px; /* Tăng kích thước chữ */
     font-weight: bold; /* Làm đậm chữ */
 }
 .space{margin-right:150px;}
